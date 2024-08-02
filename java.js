@@ -21,6 +21,20 @@ document.querySelector('#menuBar').addEventListener('click', function() {
     }
 });
 
+document.querySelectorAll('.toggle input[type="radio"]').forEach(radio => {
+    radio.addEventListener('change', function() {
+        document.querySelectorAll('.toggle label').forEach(label => {
+            label.style.color = ''; // Reset color for all labels
+        });
+        if (radio.checked) {
+            document.querySelector(`label[for="${radio.id}"]`).style.color = 'black';
+            document.querySelector(`label[for="${radio.id}"]`).style.fontWeight = 'bold';
+        }
+    });
+});
+
+// Trigger change event on the initially checked radio button to apply the correct initial color
+document.querySelector('.toggle input[type="radio"]:checked').dispatchEvent(new Event('change'));
 
 
 

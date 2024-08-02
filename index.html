@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -17,19 +22,19 @@
             <button class="login">تسجيل الدخول</button>
         </div>
         <ul id="links">
-            <li><a href="">تواصل معنا</a></li>
-            <li><a href=""> انضم الينا</a></li>
-            <li><a href=""> خدماتنا</a></li>
-            <li><a href=""> من نحن</a></li>
-            <li><a href="" class="active"> الرئيسية</a></li>
-            <li><a href=""><img src="images/logo.png" alt=""></a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+            <li><a href="#join"> انضم الينا</a></li>
+            <li><a href="#serv"> خدماتنا</a></li>
+            <li><a href="#who"> من نحن</a></li>
+            <li><a href="#" class="active"> الرئيسية</a></li>
+            <li><a href="#"><img src="images/1.png" alt=""></a></li>
         </ul>
         <div class="k">
             <i class="fa-solid fa-bars icon" id="menuBar"></i>
         </div>
     </header>
     <div class="container">
-        <div class="who">
+        <div class="who" id="who">
             <h2 class="heading">من نحن؟</h2>
             <div class="box">
                 <div class="left">
@@ -44,8 +49,8 @@
                 </div>
             </div>
         </div>
-        <!-- =================================================================== -->
-        <div class="services">
+
+        <div class="services" id="serv">
             <h2 class="heading">خدماتنا</h2>
             <div class="bigBox">
                 <div class="box1">
@@ -66,28 +71,116 @@
             </div>
         </div>
 
-    </div>
-
-
-    <!-- start toggle bar-->
-    <div class="container">
         <div class="toggle">
             <label for="top-Donors" class="label">أبرز المتبرعين</label>
-            <input type="radio"  name="select" id="top-Donors" />
+            <input type="radio" name="select" id="top-Donors" />
             <label for="month-achivs">إنجازات الشهر</label>
             <input type="radio" name="select" id="month-achivs" />
             <label for="artc">مقالات توعوية</label>
-            <input type="radio" checked name="select" id="artc" />
+            <input type="radio" name="select" id="artc" checked />
         </div>
+
+
         <div class="content">
-            <div class="con-doner"></div>
-            <div class="con-achivs"></div>
+            <div class="con-doner">
+                <div class="donors">
+                    <div class="imag"><img src="images/image 170(1).png" alt=""></div>
+                    <div class="text1">
+                        <h2>أبرز المتبرعين خلال الشهر</h2>
+                        <p>في كل شهر، نود أن نعبر عن شكرنا وامتناننا للمتبرعين الكرماء الذين يساهمون بفعالية في تحقيق
+                            أهدافنا ومساعدة الأسر المحتاجة. نحن فخورون بأن نعلن عن أبرز المتبرعين لهذا الشهر، والذين
+                            تميزوا بعطائهم الكبير وروحهم الإنسانية العالية. دعونا نحتفل بهم ونشجع الجميع على اتباع خطاهم
+                            النبيلة.</p>
+                    </div>
+                    <div class="text2">
+                        <h3 class="one">المركز الأول :</h3>
+                        <p class="special">"لقد كانت [هاجر جمال] مثالًا رائعًا للعطاء والكرم هذا الشهر. تبرعاتها السخية
+                            ساعدت في توفير ملابس دافئة للعديد من الأسر المحتاجة. نحن ممتنون لدعمها المستمر ونتطلع لرؤية
+                            المزيد من مساهماتها في المستقبل. شكرًا لك،هاجر، على دعمك الثمين!"</p>
+                    </div>
+                    <div class="text3">
+                        <h3 class="two">المركز الثانى :</h3>
+                        <p class="special">"[محمد جمال] هو أحد أبطالنا المجهولين الذين يعملون بصمت لتحقيق التغيير في
+                            المجتمع. بفضل تبرعاته المتكررة، تمكن العديد من الأطفال من الحصول على الملابس المناسبة
+                            للمدرسة. نحن نقدر تفانيك وجهودك المستمرة. شكراً لك، [اسم المتبرع الثاني]، على إسهاماتك
+                            القيمة!"</p>
+                    </div>
+                    <div class="text4">
+                        <h3 class="three">المركز الثالث :</h3>
+                        <p class="special">"نود أن نشيد بـ [عبدالرحمن جمال] لكونه أحد أكبر المتبرعين لهذا الشهر. بفضل
+                            دعمه السخي، تمكنا من توسيع نطاق مساعدتنا لتشمل مناطق جديدة. تبرعاته لم تكن مجرد ملابس، بل
+                            كانت دفء وأمل للعائلات المحتاجة. شكراً لك، [اسم المتبرع الثالث]، على عطائك الكبير!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="con-achivs">
+                <div class="report">
+                    <div class="box1">
+                        <img src="images/image 17.png" alt="">
+                    </div>
+                    <div class="box2">
+                        <h2>تقرير شهر <span>يوليو</span></h2>
+                        <div class="line1">
+                            <span>اكتر من</span>
+                            <span>تقريبا</span>
+                        </div>
+                        <div class="line2">
+                            <span class="green">2000</span>
+                            <span class="special"> => </span>
+                            <span class="green">5000</span>
+                        </div>
+                        <div class="line3">
+                            <span>متبرع</span>
+                            <span>قطعه</span>
+                        </div>
+                        <div class="txt1">
+                            <h2 class="sm">إحصائيات التبرعات</h2>
+                            <ul>
+                                <li>عدد التبرعات :</li>
+                                <li class="yes">هذا الشهر، استلمنا <span>[5000]</span> قطعة ملابس.</li>
+                                <li>عدد المتبرعين :</li>
+                                <li class="yes">شارك معنا [500] متبرع جديد.</li>
+                            </ul>
+
+                        </div>
+                        <div class="txt2">
+                            <h2 class="sm">توزيع التبرعات</h2>
+
+                            <ul>
+                                <li> الملابس الموزعه :</li>
+                                <li class="yes">تم توزيع [4500] قطعة ملابس على الأسر المحتاجة في [17] منطقة مختلفة.</li>
+                                <li> الفئات المستفاده :</li>
+                                <li class="yes">استفاد من التبرعات [3000] أسرة.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="succes">
+                    <div class="box1">
+                        <img src="images/image 18.png" alt="">
+                    </div>
+                    <div class="box2">
+                        <h2>قصص نجاح :</h2>
+                        <p class="st">"قصة نجاح: أحمد، أب لثلاثة أطفال، كان يكافح لتوفير ملابس دافئة لعائلته في فصل
+                            الشتاء. بفضل تبرعاتكم، تمكن أحمد من تزويد أطفاله بالملابس المناسبة، مما ساعدهم على الذهاب
+                            إلى المدرسة بثقة وراحة."</p>
+                        <p class="nd">"قصة نجاح: سمية، أم لطفلين، استفادت من تبرعاتكم بالحصول على ملابس جديدة لأطفالها،
+                            مما خفف عنها عبء التكاليف الباهظة للملابس الشتوية."</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
             <div class="con-artc">
                 <div class="one">
                     <h1>أزمة نقص الملابس حول العالم</h1>
                     <div class="card">
                         <div class="image">
-                            <img src="images/Rectangle 1534.png" alt="">
+                            <img src="images/homeless.jpeg" alt="">
                         </div>
                         <div class="text">
                             <p>
@@ -105,9 +198,6 @@
                 <div class="two">
                     <h1>الانتاج الضخم للملابس و تأثيره البيئي</h1>
                     <div class="card">
-                        <div class="image">
-                            <img src="images/Rectangle 1535.png" alt="">
-                        </div>
                         <div class="text">
                             <p>
                                 صناعة الأزياء هي واحدة من أكبر الملوثين في العالم، حيث تساهم بحوالي 10% من الانبعاثات
@@ -122,13 +212,16 @@
                                 يؤدي إلى تراكم النفايات البلاستيكية والملوثات في البيئة【28†s​ (UNECE)​-
                             </p>
                         </div>
+                        <div class="image">
+                            <img src="images/photo_2024-08-02_01-03-16.jpg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="one">
                     <h1>الفجوة بين الإنتاج والاستهلاك في صناعة الأزياء</h1>
                     <div class="card">
                         <div class="image">
-                            <img src="images/Rectangle 1536.png" alt="">
+                            <img src="images/close.webp" alt="">
                         </div>
                         <div class="text">
                             <p>
@@ -146,9 +239,7 @@
                 <div class="two">
                     <h1>كيف يمكن أن تساهم في التغيير؟</h1>
                     <div class="card">
-                        <div class="image">
-                            <img src="images/Rectangle 1537.png" alt="">
-                        </div>
+
                         <div class="text">
                             <p>
                                 كل تبرع يقوم به المستخدم يساعد في تقليل الفقر وعدم المساواة وحماية البيئة. بدلاً من
@@ -160,13 +251,16 @@
                                 الأزياء.
                             </p>
                         </div>
+                        <div class="image">
+                            <img src="images/7.jpeg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="one">
                     <h1>معاً نصنع الفرق</h1>
                     <div class="card">
                         <div class="image">
-                            <img src="images/Rectangle 1538.png" alt="">
+                            <img src="images/help.jpeg" alt="">
                         </div>
                         <div class="text">
                             <p>
@@ -185,9 +279,74 @@
             </div>
         </div>
     </div>
-    <!-- end toggle bar-->
+    </div>
+
+    <!-- join us -->
+    <div class="container">
+        <h2>انضم إلينا</h2>
+        <div class="join">
+
+            <div class="image">
+                <img src="images/Girl donates money to  man (1).png" alt="">
+            </div>
+            <div class="text">
+                <h1>معًا نستطيع أن نصنع فرقًا: تعاوننا مع الشركاء
+                    يضمن توزيع الملابس بأفضل طريقة ممكنة.</h1>
+                <div class="btns">
+                    <button class="active">انشاء حساب</button>
+                    <button class="not-active">تسجيل دخول</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- join us -->
+    <!-- footer -->
+    <footer>
+        <div class="title">
+            <img src="images/1.png" alt="">
+            <p>معًا، يمكننا تغيير العالم.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
 
 
+        <div class="contacts">
+            <a href="">
+                تواصل معنا
+            </a>
+            <a href="#join">
+                انضم إلينا
+            </a>
+            <a href="#serv">
+                خدماتنا
+            </a>
+            <a href="#who">
+                من نحن
+            </a>
+            <a href="#">
+                الرئيسية
+            </a>
+        </div>
+
+    </footer>
+    <div class="copy">
+        <p>© جميع الحقوق محفوظة لصالح تيم على الله 2024</p>
+    </div>
+
+    <!-- footer -->
+
+
+    <!-- start up arrow -->
+    <a href="#">
+        <div class="up">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </a>
+    <!-- end up arrow -->
     <script src="java.js"></script>
 </body>
 

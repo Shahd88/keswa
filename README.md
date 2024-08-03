@@ -5,4 +5,7 @@
 [Figma design link](https://www.figma.com/design/t4mBNa3Tf0sIE23vZ0uyEB/IEEE_DevDuel?node-id=0-1&t=OI0sbmbEwVtSv4MM-1)  
 [flutter code link](https://github.com/WaelLasheen/Kiswa)  
 # Wibesite record   
-[vedio](https://drive.google.com/file/d/18XlPOLTNPlcO_LrSu0Cfxgd3CIXkesgL/view?usp=sharing)
+[Web-record](https://drive.google.com/file/d/18XlPOLTNPlcO_LrSu0Cfxgd3CIXkesgL/view?usp=sharing)  
+# Figma record  
+[figma record](https://drive.google.com/file/d/19NqVG3QslJQY4hL8RCFEyvu7Dp_VVlr_/view?usp=drivesdk)
+

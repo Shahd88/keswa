@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="first">
-            <button class="now">تبرع الان</button>
+            <button class="now" onclick="showHiddenPart()">تبرع الان</button>
             <button class="login">تسجيل الدخول</button>
         </div>
         <ul id="links">
@@ -33,12 +33,25 @@
             <i class="fa-solid fa-bars icon" id="menuBar"></i>
         </div>
     </header>
+    <div class="hidden-part" id="hidden-part">
+        <div class="box">
+            <button class="b" onclick="hideHiddenPart()">&times;</button>
+            <h2>منشور جديد</h2>
+        </div>
+        <img src="images/Frame 547.png" alt=" ">
+        <textarea placeholder="تفاصيل المنتج..."></textarea>
+        <textarea class="tt"></textarea>
+        <button class="bb">إرسال</button>
+    </div>
+
+
+
     <div class="container">
         <div class="who" id="who">
             <h2 class="heading">من نحن؟</h2>
             <div class="box">
                 <div class="left">
-                    <img src="images/Girl donates money to  man.png" alt="">
+                    <img src="images/Girl_donates_money_to__man__2_-removebg-preview.png" alt="">
                 </div>
                 <div class="text">
                     <p>مرحبًا بكم في "كسوة"، الحل المثالي لإعادة تدوير ملابسك غير المستخدمة وتقديمها لمن يحتاجها. يسعى
@@ -282,12 +295,12 @@
     </div>
 
     <!-- join us -->
-    <div class="container">
+    <div class="container" id="join">
         <h2>انضم إلينا</h2>
         <div class="join">
 
             <div class="image">
-                <img src="images/Girl donates money to  man (1).png" alt="">
+                <img src="images/Girl_donates_money_to__man__3_-removebg-preview.png" alt="">
             </div>
             <div class="text">
                 <h1>معًا نستطيع أن نصنع فرقًا: تعاوننا مع الشركاء
@@ -314,7 +327,7 @@
         </div>
 
 
-        <div class="contacts">
+        <div class="contacts" id="contact">
             <a href="">
                 تواصل معنا
             </a>
@@ -339,6 +352,103 @@
 
     <!-- footer -->
 
+    <!-- log in -->
+    <div class="log">
+        <div class="log-img">
+            <img src="images/log-logo.png" alt="">
+        </div>
+        <div class="log-container">
+            <div class="info">
+                <h1 class="main-heading">
+                    تسجيل الدخول
+                </h1>
+                <div class="inp">
+                    <div class="e-mail">
+                        <h2 class="in-heading">البريد الالكتروني</h2>
+
+                        <div class="i-in">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" name="" id="" placeholder="ادخل البريد الاكتروني">
+
+                        </div>
+                    </div>
+                    <div class="pass">
+                        <h2 class="in-heading">كلمة المرور</h2>
+                        <div class="i-in">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="" id="" placeholder="كلمة المرور">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="remember">
+                    <div class="rad">
+                        <input type="radio" name="remember" id="remm" value="">
+                        <label for="remm">تذكرنى</label>
+                    </div>
+                    <a href="">نسيت كلمة المرور؟</a>
+                </div>
+                <div class="active">
+                    <button>
+                        تسجيل الدخول
+                    </button>
+                </div>
+                <div class="move">
+                    <p>ليس لديك حساب ؟ <a href="">إنشاء حساب</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- log in -->
+    <!-- sign -->
+    <div class="sign">
+        <div class="image">
+            <img src="images/log-logo.png" alt="">
+        </div>
+        <div class="text">
+            <h1 class="s-head">
+                انشاء حساب
+            </h1>
+            <div class="s-info">
+                <div class="in">
+                    <h2>البريد الالكتروني</h2>
+                    <div class="s-in">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" name="" id="" placeholder="ادخل البريد الاكتروني">
+                    
+                    </div>
+                </div>
+                <div class="in">
+                    <h2>كلمة المرور</h2>
+                    <div class="s-in">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="" id="" placeholder="كلمة المرور">
+                    
+                    </div>
+                </div>
+                <div class="rem">
+                    <div class="rad">
+                        <input type="radio" name="" id="remm">
+                        <label for="remm">تذكرنى</label>
+                    </div>
+                    <a href="">نسيت كلمة المرور؟</a>
+                </div>
+                <button class="active">انشاء حساب</button>
+                <div class="athor">
+                    <h6>أو تسجيل بواسطة</h6>
+                </div>
+                <div class="s-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+                <div class="move">
+                    <p>لديك حساب بالفعل؟ <a href="">تسجيل الدخول</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sign -->
 
     <!-- start up arrow -->
     <a href="#">

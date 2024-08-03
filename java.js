@@ -33,8 +33,20 @@ document.querySelectorAll('.toggle input[type="radio"]').forEach(radio => {
     });
 });
 
-// Trigger change event on the initially checked radio button to apply the correct initial color
 document.querySelector('.toggle input[type="radio"]:checked').dispatchEvent(new Event('change'));
+
+
+
+function showHiddenPart() {
+    document.getElementById('hidden-part').style.display = 'block';
+
+}
+
+function hideHiddenPart() {
+    document.getElementById('hidden-part').style.display = 'none';
+}
+
+
 
 
 
